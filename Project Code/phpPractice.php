@@ -1,11 +1,7 @@
 <?php
 	$number = 5;
-	
-	if(number=5){
-		echo 'The number is 5';
-	}
-	else{
-		echo 'The number is not 5';
-	}
-?>
+	$result;
+	$result = ((5*$number +6-8)/2)%2;
+	echo $result;
+	?>
 
